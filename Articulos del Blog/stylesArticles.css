@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabezal */
+
+#cabecera {
+    height: 20rem;
+}
+
+/* Cabezalez específicos */
+
+.fondo-perdon {
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/Articulos\ del\ Blog/Perdón/perdon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fondo-ectomorfo {
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/Articulos\ del\ Blog/Ectomorfismo/ectomorfismo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fondo-siesta {
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/Articulos\ del\ Blog/Siesta/siesta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#cabecera::before {
+    content: '';
+    height: 20rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.brand {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.brand h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    padding-top: 1.2rem;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #1abce7;
+    position: relative;
+}
+
+.titular {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+#title {
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Autor y Fecha */
+
+.autorFecha {
+    margin-top: -3rem;
+    display: flex;
+    font-size: .78rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.autorFecha p {
+    padding-right: .4rem;
+}
+
+
+
+/* Barra Lateral */
+
+.hamburguesa {
+    right: 1.5rem;
+    bottom: 3rem;
+    position: fixed;
+    display: block;
+    cursor: pointer;
+    z-index: 3;
+    padding: .7rem .5rem;
+    border-radius: 50%;
+    background-color: rgb(26, 187, 231);
+    box-shadow: 0 .2rem .7rem black;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 2rem;
+    height: .3rem;
+    background-color: white;
+    margin: .3rem;
+    transition: .4s;
+}
+
+.burguer-inclination .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-.5rem, .4rem);
+    transform: rotate(-45deg) translate(-.5rem, .4rem);
+}
+
+.burguer-inclination .bar2 {
+    opacity: 0;
+}
+
+.burguer-inclination .bar3 {
+    -webkit-transform: rotate(45deg) translate(-.4rem, -.4rem);
+    transform: rotate(45deg) translate(-.4rem, -.4rem);
+}
+
+
+#navbar {
+    display: none;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding-top: 40vh;
+    
+}
+
+.navbar a {
+    text-align: right;
+    display: block;
+    color: white;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Gilroy', sans-serif;
+}
+
+
+
+/* Contenido del Blog */
+
+#contenido {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.ubicacion {
+    margin-left: -.5rem;
+    margin-top: 1rem;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.ubicacion a {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+
+}
+
+.ubicacion svg {
+    width: 1rem;
+}
+
+.subtitulo {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding-top: 0;
+}
+
+.parrafo {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+#contenido img {
+    width: 100%;
+}
+
+#contenido li {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    padding: 0;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+
+#contenido h3 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    padding: 0;
+
+}
+
+.cita {
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+
+}
+
+
+/* Recomendado */
+
+.recomendado {
+    padding: 2rem 1rem 2rem 1rem;
+    display: block;
+    text-align: center;
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../ectomorfismo.jpg) ;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+    
+}
+
+
+/* ==== Específicos ==== */
+
+/* Perdón */
+    

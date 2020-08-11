@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ianagon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="cabecera">
+        <nav>
+            <div class="hamburguesa" onclick="burguer(this), openAndCloseBarNav(navbar)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <div id="navbar" class="navbar">
+                <a href="../../index.html" class="Inicio">Inicio</a>
+                <a href="" class="Blog">Blog</a>
+                <a href="" class="Sobre Nosotros">Sobre Nosotros</a>
+            </div>
+        </nav>
+
+        <div class="contenedorCabecera">
+            <!-- <div class="freeBook">
+                <h3>UN LIBRO GRATIS CADA SEMANA</h3>
+                <img src="" alt="">
+                <h4>Esta semana: </h4>
+            </div> -->
+            <div class="brand">
+                <img src="Blackend.png" alt="">
+                <h1 class="nombreBrand">IANAGON</h1>
+                <h2 class="slogan">"Concientes de cómo actuamos, <br> crecemos exponencialmente"</h2>
+            </div>
+        </div>
+        <div class="curva" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
+                preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-4.22,75.48 C214.73,47.86 191.58,183.05 502.54,122.86 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffffff;"></path>
+            </svg></div>
+        <script src="index.js"></script>
+    </header>
+
+
+    <section id="blog">
+        <h2 class="title">Blog</h2>
+        <h3 class="section-blog">MÁS RECIENTE</h3>
+        <div id="carrusel">
+            <div class="contenedorCarrusel">
+                <a href="/Articulos del Blog/Perdón/perdon.html">
+                    <div class="articulo perdon">
+                        <h3 class="titulo">Perdono, pero nunca olvido</h3>
+                        <h4 class="subtitulo">NO EXISTE</h4>
+                    </div>
+                </a>
+                <a href="/Articulos del Blog/Ectomorfismo/ectomorfismo.html">
+                    <div class="articulo ectomorfo">
+                        <h3 class="titulo">Ganar masa siendo delgado</h3>
+                        <h4 class="subtitulo">HIPERTROFIA EN ECTOMORFOS</h4>
+                    </div>
+                </a>
+                <a href="/Articulos del Blog/Siesta/siesta.html">
+                    <div class="articulo siesta">
+                        <h3 class="titulo">Conseguir una siesta ideal</h3>
+                        <h4 class="subtitulo">EN 5 PASOS</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <h3 class="section-blog">MÁS POPULAR</h3>
+        <div id="carrusel">
+            <div class="contenedorCarrusel">
+                <a href="/Articulos del Blog/Siesta/siesta.html">
+                    <div class="articulo siesta">
+                        <h3 class="titulo">Conseguir una siesta ideal</h3>
+                        <h4 class="subtitulo">EN 5 PASOS</h4>
+                    </div>
+                </a>
+                <a href="/Artículos del Home/Perdón/perdon.html">
+                    <div class="articulo perdon">
+                        <h3 class="titulo">Perdono, pero nunca olvido</h3>
+                        <h4 class="subtitulo">NO EXISTE</h4>
+                    </div>
+                </a>
+                <a href="/Artículos del Home/Ectomorfismo/ectomorfismo.html">
+                    <div class="articulo ectomorfo">
+                        <h3 class="titulo">Ganar masa siendo delgado</h3>
+                        <h4 class="subtitulo">HIPERTROFIA EN ECTOMORFOS</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="cta">
+        <h2 class="title">Seguinos en Instagram</h2>
+        <div class="follow">
+            <div class="followMe">
+                <img class="fotoFollow" src="ian.jpg" alt="">
+                <h3>ian_gnzaalez</h3>
+                <a href="">
+                    <div class="cta-follow">
+                        <h4>Seguir</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="followMe">
+                <img class="fotoFollow" src="Blackend.png" alt="">
+                <h3>ianagon.blog</h3>
+                <a href="">
+                    <div class="cta-follow">
+                        <h4>Seguir</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<script>
+    function burguer(x) {
+        x.classList.toggle("burguer-inclination");
+    }
+
+    let click = 1;
+
+    function openAndCloseBarNav(x) {
+        if (click === 1) {
+            document.getElementById('navbar').style.display = 'block';
+
+            click = click + 1;
+        } else {
+            document.getElementById('navbar').style.display = 'none';
+            click = 1;
+        }
+    }
+</script>
+
+
+</html>

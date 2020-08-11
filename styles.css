@@ -1,0 +1,371 @@
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif; 
+    font-family: 'Montserrat', sans-serif;*/
+
+    body {
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    #cabecera {
+        margin: 0;
+        padding: 0;
+        background: rgba(53, 53, 53, 0), url(background2.jpg);
+        background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(background2.jpg);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(background2.jpg);
+
+        /* background-image: url(background2.jpg); */
+        background-size: cover;
+        background-position-x: left;
+        height: 22rem;
+    }
+
+    @media (min-width: 1024px) {
+        #cabecera {
+            height: 32rem;
+        }
+    }
+
+
+
+
+
+    /* Barra de Navegación */
+
+    /* Barra Lateral */
+
+    .hamburguesa {
+        right: 1.5rem;
+        bottom: 3rem;
+        position: fixed;
+        display: block;
+        cursor: pointer;
+        z-index: 3;
+        padding: .7rem .5rem;
+        border-radius: 50%;
+        background-color: rgb(26, 187, 231);
+        box-shadow: 0 .2rem .7rem black;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 2rem;
+        height: .3rem;
+        background-color: white;
+        margin: .3rem;
+        transition: .4s;
+    }
+
+    .burguer-inclination .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-.5rem, .4rem);
+        transform: rotate(-45deg) translate(-.5rem, .4rem);
+    }
+
+    .burguer-inclination .bar2 {
+        opacity: 0;
+    }
+
+    .burguer-inclination .bar3 {
+        -webkit-transform: rotate(45deg) translate(-.4rem, -.4rem);
+        transform: rotate(45deg) translate(-.4rem, -.4rem);
+    }
+
+
+    #navbar {
+        display: none;
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        padding-top: 45vh;
+
+    }
+
+    .navbar a {
+        text-align: right;
+        display: block;
+        color: white;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+
+    @media (min-width: 1024px) {
+        .barraLateral {
+            float: right;
+            margin-top: 1.5rem;
+        }
+
+        .barraLateral a {
+            display: inline;
+            background-color: rgba(255, 255, 255, 0);
+            border-bottom: none;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .barraLateral a:hover {
+            color: rgba(255, 255, 255, 0.555);
+        }
+
+        .barraLateral a:active {
+            background-color: rgb(255, 255, 255, 0);
+            color: rgb(48, 48, 48);
+        }
+    }
+
+
+    .botonNav {
+        font-size: 3rem;
+        color: rgb(124, 124, 124);
+        padding-left: 15rem;
+        cursor: pointer;
+    }
+
+    @media (min-width: 1024px) {
+        .botonNav {
+            display: none;
+        }
+    }
+
+    .botonNav img {
+        font-size: 8rem;
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.753);
+        margin-top: 0;
+        color: rgba(255, 255, 255, 0.774);
+        border-bottom-right-radius: 1rem;
+    }
+
+    /* Logo, Marca, Slogan */
+
+    .brand {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    @media (min-width: 1024px) {
+        .brand {
+            padding-top: 4rem;
+        }
+    }
+
+    .brand img {
+        display: block;
+        padding-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 6rem;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    @media (min-width: 1024px) {
+        .brand img {
+            width: 10rem;
+        }
+    }
+
+    .nombreBrand {
+        font-family: 'Gilroy', sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin: 0;
+        color: white;
+        text-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    }
+
+    @media (min-width: 1024px) {
+        .nombreBrand {
+            font-size: 5rem;
+        }
+    }
+
+    .slogan {
+        margin-top: 0;
+        font-family: 'Lato';
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 0 0 .8rem black;
+        color: rgba(255, 255, 255, 0.767);
+    }
+
+    @media (min-width: 1024px) {
+        .slogan {
+            font-size: 2.4rem;
+        }
+    }
+
+
+    .curva {
+        margin-top: -3.6rem;
+    }
+
+    /* Predeterminados */
+
+    .title {
+        margin-left: 1.3rem;
+        font-size: 1.5rem;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+
+    /* Follow in Instagram */
+
+    #cta {
+        width: 100%;
+    }
+
+    #cta h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .follow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .followMe {
+        display: block;
+        width: 90%;
+        border: 2px solid #DBDBDB;
+        border-radius: 1rem;
+        margin: 4%;
+    }
+
+    .followMe img {
+        display: block;
+        margin: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        width: 65%;
+    }
+
+    .followMe h3 {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .cta-follow {
+        display: block;
+        margin: auto;
+        background-color: #0095f6;
+        border-radius: .8rem;
+        color: white;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 2rem;
+        text-decoration: none;
+    }
+
+    .followMe a {
+        text-decoration: none;
+    }
+
+    .cta-follow h4 {
+        margin: 0;
+        padding-bottom: .3rem;
+        padding-top: .3rem;
+    }
+
+
+
+    /* Carrusel de Artículos */
+
+    #blog h2 {
+        font-size: 2rem;
+        margin-top: -3.4rem;
+        margin-bottom: 0rem;
+    }
+    
+    .section-blog {
+        margin-left: 1.3rem;
+        color: rgb(153, 153, 153);
+        border-top: 1px solid rgb(199, 199, 199);
+        border-bottom: 1px solid rgb(199, 199, 199);
+        font-family: 'Gilroy', sans-serif;
+        padding-top: 1rem;
+        padding-bottom: .9rem;
+        margin-right: 50%;
+    }
+
+    #carrusel {
+        width: 100%;
+        overflow: scroll;
+        position: relative;
+    }
+
+    .contenedorCarrusel {
+        white-space: nowrap;
+    }
+
+    .articulo {
+        border-radius: 1rem;
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.205));
+        background-size: cover;
+        width: 22rem;
+        height: 14rem;
+        margin-left: .7rem;
+    }
+
+    .articulo:active {
+        scale: .9;
+    }
+
+    .articulo .titulo {
+        padding-left: .7rem;
+        font-size: 1.5rem;
+        margin: 0;
+        padding-bottom: .7rem;
+        padding-top: 8.5rem;
+        color: white;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+    .articulo .subtitulo {
+        font-size: 1rem;
+        padding-left: .7rem;
+        margin: 0;
+        padding-top: 0;
+        font-family: 'Nunito', sans-serif;
+        color: #1ABCE7;
+    }
+
+    /* Artículos Individuales */
+
+    .perdon {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Perdón/perdon.jpg);
+        background-size: cover;
+    }
+
+    .ectomorfo {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Ectomorfismo/ectomorfismo.jpg);
+        background-size: cover;
+    }
+
+    .siesta {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Siesta/siesta.jpg);
+        background-size: cover;
+
+    }
