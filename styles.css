@@ -23,7 +23,8 @@
 
     @media (min-width: 1024px) {
         #cabecera {
-            height: 32rem;
+            height: 30rem;
+            background-attachment: fixed;
         }
     }
 
@@ -47,6 +48,12 @@
         background-color: rgb(26, 187, 231);
         box-shadow: 0 .2rem .7rem black;
     }
+    @media (min-width: 1024px) {
+        .hamburguesa {
+            display: none;
+        }
+    }
+    
 
     .bar1,
     .bar2,
@@ -77,6 +84,14 @@
         display: none;
     }
 
+    @media (min-width: 1024px) {
+        #navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+    }
+
     .navbar {
         background-color: rgba(0, 0, 0, 0.9);
         position: fixed;
@@ -86,6 +101,18 @@
         padding-top: 45vh;
 
     }
+    @media (min-width: 1024px) {
+        .navbar {
+            background-color: rgba(255, 255, 255, 0);
+            position: static;
+            height: 4rem;
+            padding-top: 0;
+            display: table;
+            direction: rtl;
+
+        }
+    }
+
 
     .navbar a {
         text-align: right;
@@ -98,53 +125,26 @@
         font-family: 'Gilroy', sans-serif;
     }
 
-
     @media (min-width: 1024px) {
-        .barraLateral {
-            float: right;
-            margin-top: 1.5rem;
+        .navbar a {
+            font-family: 'Nunito', sans-serif;
+            display: inline-block;
+            font-size: 1.5rem;
+            margin: 1.5rem 1rem 1rem 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
         }
-
-        .barraLateral a {
-            display: inline;
-            background-color: rgba(255, 255, 255, 0);
-            border-bottom: none;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            font-size: 1.3rem;
+        .navbar a:hover {
+            color: rgb(211, 211, 211);
+            text-shadow: 0 0 .5rem black;
         }
-
-        .barraLateral a:hover {
-            color: rgba(255, 255, 255, 0.555);
+        .navbar .Inicio {
+            color: rgb(59, 213, 255);
         }
-
-        .barraLateral a:active {
-            background-color: rgb(255, 255, 255, 0);
-            color: rgb(48, 48, 48);
+        .navbar .Inicio:hover {
+            color: rgb(0, 200, 255);
+            text-shadow: 0 0 .5rem black;
         }
-    }
-
-
-    .botonNav {
-        font-size: 3rem;
-        color: rgb(124, 124, 124);
-        padding-left: 15rem;
-        cursor: pointer;
-    }
-
-    @media (min-width: 1024px) {
-        .botonNav {
-            display: none;
-        }
-    }
-
-    .botonNav img {
-        font-size: 8rem;
-        padding: 1rem;
-        background: rgba(0, 0, 0, 0.753);
-        margin-top: 0;
-        color: rgba(255, 255, 255, 0.774);
-        border-bottom-right-radius: 1rem;
     }
 
     /* Logo, Marca, Slogan */
@@ -156,7 +156,7 @@
 
     @media (min-width: 1024px) {
         .brand {
-            padding-top: 4rem;
+            padding-top: 0rem;
         }
     }
 
@@ -215,6 +215,13 @@
         margin-top: -3.6rem;
     }
 
+    @media (min-width: 1024px) {
+        .curva {
+            display: none;
+        }
+    }
+
+
     /* Predeterminados */
 
     .title {
@@ -222,6 +229,8 @@
         font-size: 1.5rem;
         font-family: 'Gilroy', sans-serif;
     }
+
+
 
 
     /* Follow in Instagram */
@@ -287,7 +296,6 @@
     }
 
 
-
     /* Carrusel de Artículos */
 
     #blog h2 {
@@ -295,10 +303,21 @@
         margin-top: -3.4rem;
         margin-bottom: 0rem;
     }
+
+    @media (min-width: 1024px) {
+        #blog h2 {
+            margin-top: 1rem;
+            font-size: 3rem;
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+
     
     .section-blog {
         margin-left: 1.3rem;
-        color: rgb(153, 153, 153);
+        color: rgb(187, 187, 187);
         border-top: 1px solid rgb(199, 199, 199);
         border-bottom: 1px solid rgb(199, 199, 199);
         font-family: 'Gilroy', sans-serif;
@@ -307,15 +326,48 @@
         margin-right: 50%;
     }
 
+    @media (min-width: 1024px) {
+        .section-blog {
+            font-size: 2rem;
+            text-align: center;
+            margin-right: 25%;
+            margin-left: 25%;
+        }
+        .section-blog:hover {
+            background-color: rgb(207, 207, 207);
+            color: white;
+        }
+    }
+
+
     #carrusel {
         width: 100%;
         overflow: scroll;
         position: relative;
     }
 
+    @media (min-width: 1024px) {
+        #carrusel {
+            overflow: hidden;
+        }
+    }
+
+
     .contenedorCarrusel {
         white-space: nowrap;
     }
+
+    @media (min-width: 1024px) {
+        .contenedorCarrusel {
+            white-space: normal;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+
+        }
+    }
+
 
     .articulo {
         border-radius: 1rem;
@@ -328,6 +380,24 @@
         height: 14rem;
         margin-left: .7rem;
     }
+
+    @media (min-width: 1024px) {
+        .articulo {
+            width: 98%;
+            margin: 1%;
+            height: 18rem;
+            border-radius: .5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .articulo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 4rem white;
+            transition: all .3s;
+        }
+
+    }
+
 
     .articulo:active {
         scale: .9;
@@ -365,7 +435,7 @@
     }
 
     .siesta {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Siesta/siesta.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Siesta/dormido.jpg);
         background-size: cover;
 
     }
