@@ -192,9 +192,9 @@
     }
 
     .nombreBrand {
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Kaushan Script', cursive;        
         font-size: 3rem;
-        font-weight: 700;
+        font-weight: 400;
         text-align: center;
         padding-top: 0;
         padding-bottom: 0;
@@ -205,7 +205,7 @@
 
     @media (min-width: 1024px) {
         .nombreBrand {
-            font-size: 5rem;
+            font-size: 5.5rem;
         }
     }
 
@@ -402,17 +402,17 @@
     /* Artículos Individuales */
 
     .perdon {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Perdón/perdon.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/Articulos\ del\ Blog/Perdón/perdon.jpg);
         background-size: cover;
     }
 
     .ectomorfo {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Ectomorfismo/ectomorfismo.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/Articulos\ del\ Blog/Ectomorfismo/ectomorfismo.jpg);
         background-size: cover;
     }
 
     .siesta {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Articulos\ del\ Blog/Siesta/dormido.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/Articulos\ del\ Blog/Siesta/dormido.jpg);
         background-size: cover;
 
     }
@@ -497,11 +497,6 @@
         }
     }
 
-
-
-
-
-
     .followMe {
         display: block;
         width: 90%;
@@ -565,7 +560,9 @@
             margin-bottom: 2rem;
             width: 13rem;
             border-radius: 1rem;
-
+        }
+        .cta-follow:active {
+            transform: scale(.9);
         }
     }
 
@@ -597,9 +594,9 @@
   
     }
     @media (min-width: 1024px) {
-        .newsletter {
+        /* .newsletter {
 
-        }
+        } */
     }
 
 
