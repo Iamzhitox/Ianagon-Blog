@@ -529,6 +529,8 @@
         margin-bottom: 1rem;
         border-radius: 50%;
         width: 65%;
+        border: 2px solid #dddddd;
+
     }
     @media (min-width: 1024px) {
         .followMe img {

@@ -4,7 +4,7 @@ body {
 
 #cabecera {
     height: 22rem;
-    background: linear-gradient(to top, rgb(255, 255, 255), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(oficina.jpg);
+    background: linear-gradient(to top, rgb(255, 255, 255), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(oficina.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +12,7 @@ body {
 }
 @media (min-width: 1024px) {
     #cabecera {
-        height: 35rem;
+        height: 30rem;
     }
 }
 
@@ -57,7 +57,7 @@ h1 {
 }
 @media (min-width: 1024px) {
     h1 {
-        margin-top: 7rem;
+        margin-top: 2rem;
         font-size: 5rem;
     }
 }
@@ -206,7 +206,7 @@ h1 {
     }
     @media (min-width: 1024px) {
         #contenido {
-            margin: -3rem 27% 6rem 27%;
+            margin: 0rem 27% 6rem 27%;
         }
     }
 
@@ -223,11 +223,18 @@ h1 {
     .parrafo {
         font-family: 'Nunito', sans-serif;
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         margin-bottom: 1.5rem;
         margin-top: 1.5rem;
         padding: 0;
     }
+    @media (min-width: 1024px) {
+        .parrafo {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+    }
+
     
     /* Ayudanos */
 
@@ -237,7 +244,7 @@ h1 {
     }
     @media (min-width: 1024px) {
         #ayudanos {
-            margin: 0 38% 5rem 38%;
+            margin: 0 37% 5rem 37%;
         }
     }
     
@@ -356,6 +363,8 @@ h1 {
         margin-bottom: 1rem;
         border-radius: 50%;
         width: 65%;
+        border: 2px solid #dddddd;
+
     }
     @media (min-width: 1024px) {
         .followMe img {
