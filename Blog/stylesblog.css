@@ -271,7 +271,8 @@ h1 {
 @media (min-width: 1024px) {
     .articulo {
         margin: auto 20% 3rem 20%;
-        display: flex;
+        display: grid;
+        grid-template-columns: 40% 60%;
         box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
     }
     .articulo:hover {
@@ -292,7 +293,7 @@ h1 {
 }
 @media (min-width: 1024px) {
     .articulo img {
-        width: 55%;
+        height: 100%;
         border-radius: 1rem 0 0 1rem;
     }
 }
@@ -318,9 +319,9 @@ h1 {
 
 .descripcion h2 {
     color: rgba(0, 0, 0, 0.9);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 0;
-    margin-bottom: .3rem;
+    margin-bottom: .7rem;
     font-family: 'Gilroy', sans-serif;
 }
 @media (min-width: 1024px) {
@@ -332,8 +333,9 @@ h1 {
 
 .descripcion h3 {
     font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     color: #8d8d8d;
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 0;
 }
 @media (min-width: 1024px) {

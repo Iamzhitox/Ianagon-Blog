@@ -128,7 +128,7 @@ body {
 
 .share .container-share {
     background-color: white;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
     display: flex;
     padding-right: 0rem;
     padding-left: .5rem;
@@ -378,6 +378,9 @@ body {
     }
 }
 
+#contenido ul {
+    padding-left: 0;
+}
 
 #contenido li {
     font-family: 'Nunito', sans-serif;
@@ -410,12 +413,13 @@ body {
 
 .cita {
     padding: 2rem 1rem 2rem 1rem;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(235, 235, 235);
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
-    color: rgb(77, 77, 77);
+    color: #4d4d4d;
+    border-left: .6rem solid #646464;
 
 }
 
