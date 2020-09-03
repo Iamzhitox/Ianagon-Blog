@@ -20,13 +20,13 @@ body {
 /* Cabezalez específicos */
 
 .fondo-perdon {
-    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/Blog/Articulos\ del\ Blog/Perdón/perdon.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(perdon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fondo-ectomorfo {
-    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/Blog/Articulos\ del\ Blog/Ectomorfismo/ectomorfismo.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(ectomorfismo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,7 +34,7 @@ body {
 }
 
 .fondo-siesta {
-    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/Blog/Articulos\ del\ Blog/Siesta/dormido.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(dormido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

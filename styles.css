@@ -421,17 +421,17 @@
     /* Artículos Individuales */
 
     .perdon {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/Articulos\ del\ Blog/Perdón/perdon.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/perdon.jpg);
         background-size: cover;
     }
 
     .ectomorfo {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/Articulos\ del\ Blog/Ectomorfismo/ectomorfismo.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/ectomorfismo.jpg);
         background-size: cover;
     }
 
     .siesta {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/Articulos\ del\ Blog/Siesta/dormido.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/dormido.jpg);
         background-size: cover;
 
     }

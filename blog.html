@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <meta name="description" content="ACÁ VA LA DESCRIPCIÓN" />
-    <link rel="stylesheet" href="aboutmestyles.css">
+    <link rel="stylesheet" href="stylesblog.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="logotipo.png" />
+
 </head>
 
 <body>
@@ -28,9 +30,9 @@
         </div>
 
         <div id="navbar" class="navbar">
-            <div class="enlace-hover"> <a href="../index.html" class="Inicio">Inicio</a></div>
-            <div class="enlace-hover"> <a href="../Blog/blog.html" class="Blog">Blog</a></div>
-            <div class="enlace-hover"> <a href="../Sobre Nosotros/aboutme.html" class="Sobre-Nosotros">Sobre Nosotros</a></div>
+            <div class="enlace-hover"> <a href="index.html" class="Inicio">Inicio</a></div>
+            <div class="enlace-hover"> <a href="blog.html" class="Blog">Blog</a></div>
+            <div class="enlace-hover"> <a href="aboutme.html" class="Sobre Nosotros">Sobre Nosotros</a></div>
         </div>
     </nav>
 <header id="cabecera">
@@ -38,41 +40,41 @@
             <img src="" alt="">
             <h4>Ianagon</h4>
         </div>
-        <h1>Sobre Nosotros</h1>
+        <h1>Blog</h1>
     </header>
-
-    <section id="contenido">
-        <h2 class="titulo">Misión</h2>
-        <p class="parrafo">Ianagon nace desde la intención de ayudar a las personas a desarrollar un pensamiento crítico sobre diversos aspectos cotidianos de la vida. </p>
-        <h2 class="titulo">Visión</h2>
-        <p class="parrafo">Buscamos llegar a ser una gran comunidad que fomente una filosofía de vida en la que se desarrolle un perfil proactivo y de exponencial cambio y crecimiento. </p>
-        <h2 class="titulo">Valores</h2>
-        <p class="parrafo">Pretendemos que nuestros valores cumplan con las expectativas propias y del tercero. </p>
-        <p class="parrafo">Priorizaremos la buena predisposición para con cada usuario o miembro. </p>
-        <p class="parrafo">Adaptaremos una metodología de comunicación cercana, promoviendo confianza ante el que guste acercarse para aclarar dudas o presentar una crítica constructiva. </p>
-        <p class="parrafo">Si en algún momento usted cree que nos desviamos de nuestros valores corporativos, háganoslo saber. </p>
-    </section>
-
-    <section id="ayudanos">
-        <div class="ayudanos">
-            <div class="help">
-                <img src="" alt="">
-                <h2>ATENCIÓN</h2>
-            </div>
-            <p>El presente sitio se encuentra en pleno desarrollo. Ante cualquier bug, error o posible mejora que te parezca que podemos hacer para mejorar la experiencia de nuestros usuarios, hazlo saber a través de nuestro correo. Crecemos gracias a tu ayuda.</p>
-            <a href="mailto:ianagonblog@gmail.com">
-                <div class="enviar-correo">
-                    <h3>Enviar Correo</h3>
-                </div>
-            </a>
+    <section id="articulos">
+        <div class="orden">
+            <a href="#"><div class="seleccionado">MÁS RECIENTE</div></a>
+            <a href="blogmv.html"><div class="noseleccionado">MÁS POPULAR</div></a>
         </div>
+        <a href="Blog/siesta.html"><div class="articulo">
+            <img src="Blog/dormido.jpg" alt="">
+            <div class="descripcion">
+                <h2>La siesta ideal EN 5 PASOS</h2>
+                <h3>¿Te sientes fatigado o somnoliento? Seguro que en lo primero que piensas es en una siesta. Descubre cómo tener un descanso óptimo y renovar energías.</h3>
+            </div>
+        </div></a> 
+        <a href="Blog/ectomorfismo.html"><div class="articulo">
+            <img src="Blog/ectomorfismo.jpg" alt="">
+            <div class="descripcion">
+                <h2>Cómo GANAR VOLÚMEN siendo ECTOMORFO</h2>
+                <h3>¿Cansado de comer y entrenar arduamente y no lograr los resultados que buscas? Descubre cómo lograr ese físico que tanto anhelas.</h3>
+            </div>
+        </div></a>
+        <a href="Blog/perdon.html"><div class="articulo">
+            <img src="Blog/perdon.jpg" alt="">
+            <div class="descripcion">
+                <h2>¿Qué es el PERDÓN y CUÁNDO PERDONAR?</h2>
+                <h3>¿Existe el perdono pero nunca olvido? ¿Qué debo tener en cuenta al perdonar a alguien? Descúbrelo enn éste post.</h3>
+            </div>
+        </div></a> 
     </section>
 
     <footer id="cta">
         <div class="seguir-contacto">
             <div class="follow-contact">
                 <div class="followMe">
-                    <img class="fotoFollow" src="../Blackend.png" alt="">
+                    <img class="fotoFollow" src="Blackend.png" alt="">
                     <h3>ianagon.blog</h3>
                     <a href="https://www.instagram.com/ianagon.blog/" target="_blank">
                         <div class="cta-follow">
