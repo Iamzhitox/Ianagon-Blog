@@ -1,0 +1,323 @@
+
+
+    body {
+        margin: 0;
+    }
+
+    .hamburguesa {
+        right: 1.5rem;
+        bottom: 3rem;
+        position: fixed;
+        display: block;
+        cursor: pointer;
+        z-index: 3;
+        padding: .7rem .5rem;
+        border-radius: 50%;
+        background-color: rgb(26, 187, 231);
+        box-shadow: 0 .2rem .7rem black;
+    }
+
+    @media (min-width: 1024px) {
+        .hamburguesa {
+            display: none;
+        }
+    }
+
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 2rem;
+        height: .3rem;
+        background-color: white;
+        margin: .3rem;
+        transition: .4s;
+    }
+
+    .burguer-inclination .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-.5rem, .4rem);
+        transform: rotate(-45deg) translate(-.5rem, .4rem);
+    }
+
+    .burguer-inclination .bar2 {
+        opacity: 0;
+    }
+
+    .burguer-inclination .bar3 {
+        -webkit-transform: rotate(45deg) translate(-.4rem, -.4rem);
+        transform: rotate(45deg) translate(-.4rem, -.4rem);
+    }
+
+
+    #navbar {
+        display: none;
+    }
+
+    @media (min-width: 1024px) {
+        #navbar {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        padding-top: 45vh;
+
+    }
+
+    @media (min-width: 1024px) {
+        .navbar {
+            background-color: rgba(255, 255, 255, 0);
+            position: static;
+            padding-top: 0;
+            display: table;
+            direction: rtl;
+
+        }
+    }
+
+
+    .navbar a {
+        text-align: right;
+        display: block;
+        color: white;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+    @media (min-width: 1024px) {
+        .enlace-hover {
+            margin-top: 1.5rem;
+            margin-right: .5rem;
+        }
+
+        .enlace-hover:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: .5rem;
+        }
+
+        .navbar a {
+            margin: 0;
+            padding: .5rem .7rem .5rem .7rem;
+            font-family: 'Nunito', sans-serif;
+            display: inline-block;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .navbar a:hover {
+            color: rgb(255, 255, 255);
+            text-shadow: 0 0 .5rem rgba(255, 255, 255, 0.4);
+        }
+
+        .navbar .Inicio {
+            color: rgb(0, 200, 255);
+        }
+
+        .navbar .Inicio:hover {
+            color: rgb(0, 200, 255);
+            text-shadow: 0 0 .5rem rgba(86, 218, 255, 0.4);
+        }
+    }
+
+
+
+#cabecera {
+    width: 100%;
+    height: 25rem;
+}
+@media (min-width: 1024px) {
+    #cabecera {
+        height: 30rem;
+        background: -webkit-linear-gradient(to left, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.3)), url(code.jpg);
+        background: linear-gradient(to left, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.3)), url(code.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+.me {
+    padding-top: 3rem;
+    display: block;
+    text-align: center;
+}
+@media (min-width: 1024px) {
+
+}
+
+
+.me .me-foto {
+    width: 9rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem black;
+}
+@media (min-width: 1024px) {
+    .me .me-foto {
+        width: 12rem;
+        box-shadow: 0 0 2rem rgba(255, 255, 255, 0.3);
+    }
+}
+
+
+.me .ig-name {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 1024px) {
+    .me .ig-name {
+
+    }
+}
+
+
+.ig-name .name {
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 0 0 .8rem black;
+}
+@media (min-width: 1024px) {
+    .ig-name .name {
+        font-size: 3.5rem;
+        text-shadow: 0 0 .8rem rgba(255, 255, 255, 0.4);
+    
+    }
+}
+
+
+
+
+#skills {
+    margin: 0 1.5rem;
+}
+@media (min-width: 1024px) {
+    #skills {
+        margin: 5rem 25%;
+    }
+}
+
+
+.titulo {
+    font-size: 2.3rem;
+    font-family: 'Gilroy', sans-serif;
+}
+@media (min-width: 1024px) {
+    .titulo {
+        font-size: 3rem;
+    }
+}
+
+
+.subtitulo {
+    font-size: 1.5rem;
+    font-family: 'Gilroy', sans-serif;
+    border-left: .4rem solid black;
+    padding-left: .8rem;
+
+}
+@media (min-width: 1024px) {
+    .subtitulo {
+        font-size: 2.2rem;
+
+    }
+}
+
+
+.parrafo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+}
+@media (min-width: 1024px) {
+    .parrafo {
+        font-size: 1.5rem;
+
+    }
+}
+
+
+
+#proyectos {
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.9)), url(coding.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.9)), url(coding.jpg);
+    background-size: cover;
+    color: white;
+    padding: 2rem 1.5rem 4.5rem 1.5rem;
+}
+@media (min-width: 1024px) {
+    #proyectos {
+        padding: 2rem 25% 4.5rem 25%;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+}
+
+
+.secciones .subtitulo {
+    font-size: 1.7rem;
+    border-left: none;
+    padding-left: 0;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+@media (min-width: 1024px) {
+    .secciones .subtitulo {
+        font-size: 2.1rem;
+
+    }
+}
+
+
+.secciones .rama {
+    font-family: 'Montserrat', sans-serif;
+    color: #00eeff;
+    margin-top: .3rem;
+}
+@media (min-width: 1024px) {
+    .secciones .rama {
+        margin-top: .5rem;
+        font-size: 1.3rem;
+
+    }
+}
+
+
+.secciones a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+
+
+}
+.download div {
+    width: 7rem;
+    padding: .7rem .8rem;
+    background-color: #00eeff;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.secciones iframe {
+    width: 100%;
+    height: 12rem;
+}
+@media (min-width: 1024px) {
+    .secciones iframe {
+        height: 23.8rem;
+    }
+}
+
+

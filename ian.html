@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Gonzalez</title>
+    <link rel="stylesheet" href="ianstyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logotipo.png" />
+</head>
+
+<body>
+    <header id="cabecera">
+        <nav>
+            <div class="hamburguesa" onclick="burguer(this), openAndCloseBarNav(navbar)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <div id="navbar" class="navbar">
+                <div class="enlace-hover"> <a href="index.html" class="Inicio">Inicio</a></div>
+                <div class="enlace-hover"> <a href="blog.html" class="Blog">Blog</a></div>
+                <div class="enlace-hover"> <a href="aboutme.html" class="Sobre Nosotros">Sobre Nosotros</a></div>
+            </div>
+        </nav>
+
+        <div class="me">
+            <img src="ian.jpg" alt="" class="me-foto">
+            <div class="ig-name">
+                <h1 class="name">Ian Gonzalez</h1>
+                <a href=""><img src="" alt="" class="ig-follow"></a>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="skills">
+        <h2 class="titulo">Skills</h2>
+        <div class="skill">
+            <h3 class="subtitulo">Marketing</h3>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem eveniet
+                alias aliquid ducimus quaerat! Nesciunt repudiandae, consectetur temporibus debitis quas incidunt saepe
+                iste unde iure perspiciatis accusamus, aut id.</p>
+            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero fugit ducimus quae quam
+                velit deleniti, mollitia est inventore voluptatibus laudantium eius quaerat vero placeat rerum.
+                Doloribus reprehenderit voluptas blanditiis impedit!</p>
+            <h3 class="subtitulo">Producción Audiovisual</h3>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore alias dicta vel! Et,
+                iure est eum dolorum magni reprehenderit! Accusantium quis neque commodi vel quasi perspiciatis est
+                cupiditate distinctio ducimus?</p>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore alias dicta vel! Et,
+                iure est eum dolorum magni reprehenderit! Accusantium quis neque commodi vel quasi perspiciatis est
+                cupiditate distinctio ducimus?</p>
+            <h3 class="subtitulo">Desarrollo Web</h3>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore alias dicta vel! Et,
+                iure est eum dolorum magni reprehenderit! Accusantium quis neque commodi vel quasi perspiciatis est
+                cupiditate distinctio ducimus?</p>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore alias dicta vel! Et,
+                iure est eum dolorum magni reprehenderit! Accusantium quis neque commodi vel quasi perspiciatis est
+                cupiditate distinctio ducimus?</p>
+        </div>
+    </section>
+    <section id="proyectos">
+        <h2 class="titulo">Proyectos</h2>
+        <div class="secciones">
+            <h3 class="subtitulo">Tech e-Adapt</h2>
+            <h4 class="rama">Marketing</h3>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. At id molestiae odio perspiciatis dolores rem nulla qui incidunt? Quaerat a expedita saepe sit assumenda sed error beatae, cum eos doloribus.</p>
+            <a href="Tech e-Adapt.pdf" class="download">
+                <div>Descargar PDF</div>
+            </a>
+
+            <h3 class="subtitulo">Clips motivacionales | Cuarentena</h2>
+            <h4 class="rama">Producción Audiovisual</h3>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. At id molestiae odio perspiciatis dolores rem nulla qui incidunt? Quaerat a expedita saepe sit assumenda sed error beatae, cum eos doloribus.</p>
+            <div class="videos">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/36ev0D95ZAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OtJibTcDY9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h3 class="subtitulo">Ianagon Blog</h2>
+            <h4 class="rama">Desarrollo Web</h3>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. At id molestiae odio perspiciatis dolores rem nulla qui incidunt? Quaerat a expedita saepe sit assumenda sed error beatae, cum eos doloribus.</p>
+            <a href="blog.html" class="download">
+                <div>Ir al Blog</div>
+            </a>
+
+    </section>
+
+
+
+
+    <script>
+        function burguer(x) {
+            x.classList.toggle("burguer-inclination");
+        }
+
+        let click = 1;
+
+        function openAndCloseBarNav(x) {
+            if (click === 1) {
+                document.getElementById('navbar').style.display = 'block';
+
+                click = click + 1;
+            } else {
+                document.getElementById('navbar').style.display = 'none';
+                click = 1;
+            }
+        }
+    </script>
+</body>
+
+</html>
