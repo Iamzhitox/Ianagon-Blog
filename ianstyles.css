@@ -135,6 +135,9 @@
 #cabecera {
     width: 100%;
     height: 25rem;
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(255, 255, 255, .2), rgba(255, 255, 255)), url(code.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(255, 255, 255, .2), rgba(255, 255, 255)), url(code.jpg);
+
 }
 @media (min-width: 1024px) {
     #cabecera {
@@ -250,8 +253,8 @@
 
 
 #proyectos {
-    background: -webkit-linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.9)), url(coding.jpg);
-    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.9)), url(coding.jpg);
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.6)), url(coding.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.6)), url(coding.jpg);
     background-size: cover;
     color: white;
     padding: 2rem 1.5rem 4.5rem 1.5rem;
@@ -259,7 +262,6 @@
 @media (min-width: 1024px) {
     #proyectos {
         padding: 2rem 25% 4.5rem 25%;
-        background-size: contain;
         background-attachment: fixed;
     }
 }
