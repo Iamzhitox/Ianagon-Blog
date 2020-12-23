@@ -23,7 +23,7 @@
 
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #cabecera {
             height: 30rem;
             background-attachment: fixed;
@@ -54,7 +54,7 @@
         box-shadow: 0 .2rem .7rem black;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .hamburguesa {
             display: none;
         }
@@ -90,7 +90,7 @@
         display: none;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #navbar {
             display: flex;
             flex-direction: row-reverse;
@@ -108,7 +108,7 @@
 
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .navbar {
             background-color: rgba(255, 255, 255, 0);
             position: static;
@@ -131,7 +131,7 @@
         font-family: 'Gilroy', sans-serif;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .enlace-hover {
             margin-top: 1.5rem;
             margin-right: .5rem;
@@ -179,7 +179,7 @@
         padding-bottom: 0;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .brand {
             padding-top: 0rem;
         }
@@ -195,7 +195,7 @@
         margin-top: 0;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .brand img {
             height: 11rem;
         }
@@ -214,7 +214,7 @@
         text-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .nombreBrand {
             font-size: 5.5rem;
             margin-top: -2rem;
@@ -233,7 +233,7 @@
 
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .slogan {
             font-size: 2.4rem;
         }
@@ -248,7 +248,7 @@
         padding-bottom: 0;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .curva {
             display: none;
         }
@@ -282,7 +282,7 @@
         color: black;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #blog h2 {
             margin-top: 1rem;
             font-size: 3rem;
@@ -305,7 +305,7 @@
         margin-right: 50%;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .section-blog {
             font-size: 2rem;
             text-align: center;
@@ -328,7 +328,7 @@
         position: relative;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #carrusel {
             overflow: hidden;
         }
@@ -339,7 +339,7 @@
         white-space: nowrap;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .contenedorCarrusel {
             white-space: normal;
             display: grid;
@@ -363,7 +363,7 @@
         margin-left: .7rem;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .articulo {
             width: 98%;
             margin: 1%;
@@ -396,7 +396,7 @@
         font-family: 'Gilroy', sans-serif;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .articulo .titulo {
             font-size: 2.3rem;
         }
@@ -412,7 +412,7 @@
         color: #1ABCE7;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .articulo .subtitulo {
             font-size: 1rem;
         }
@@ -447,7 +447,7 @@
         background-size: cover;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #quienes-somos {
             background-attachment: fixed;
         }
@@ -462,7 +462,7 @@
 
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #quienes-somos h2 {
             font-size: 3rem;
             margin-bottom: 1.5rem;
@@ -481,7 +481,7 @@
 
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #quienes-somos p {
             font-size: 1.5rem;
             padding: 0 28% 0 28%;
@@ -496,7 +496,7 @@
     #cta {
         width: 100%;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #cta {
             margin: 2rem auto 2rem auto;
         }
@@ -509,7 +509,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .follow-contact {
             display: flex;
             justify-content: center;
@@ -523,7 +523,7 @@
         border-radius: 1rem;
         margin: 4%;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .followMe {
             display: block;
             margin: 0;
@@ -545,7 +545,7 @@
         border: 2px solid #dddddd;
 
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .followMe img {
             width: 8rem;
         }
@@ -556,7 +556,7 @@
         font-size: 1rem;
         margin-bottom: .5rem;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .followMe h3 {
             font-size: 1.3rem;
         }
@@ -575,7 +575,7 @@
         margin-bottom: 2rem;
         text-decoration: none;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .cta-follow {
             margin-top: 2rem;
             margin-bottom: 2rem;
@@ -597,7 +597,7 @@
         padding-bottom: .3rem;
         padding-top: .3rem;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .cta-follow h4 {
             padding-bottom: .5rem;
             padding-top: .5rem;
@@ -614,7 +614,7 @@
         margin-left: 2rem;
   
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         /* .newsletter {
 
         } */
@@ -626,7 +626,7 @@
         margin-top: 1rem;
         margin-bottom: .2rem;
     }
-        @media (min-width: 1024px) {
+        @media (min-width: 1200px) {
         .newsletter h2 {
             font-size: 2rem;
             margin-bottom: .5rem;
@@ -643,7 +643,7 @@
         font-size: .7rem;
 
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #cta .newsletter a {
             font-size: 1.2rem;
         }
@@ -656,7 +656,7 @@
         margin-left: 0rem;
         color: #1ABCE7;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .newsletter p {
             margin-top: 3rem;
 
