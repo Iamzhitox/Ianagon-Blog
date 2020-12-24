@@ -41,6 +41,15 @@ body {
   
 }
 
+.fondo-tucuerpo {
+    background: linear-gradient(to top, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(serfeliz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
 #cabecera::before {
     content: '';
     height: 20rem;

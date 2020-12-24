@@ -425,6 +425,11 @@
 
     /* Artículos Individuales */
 
+    .tucuerpo {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/serfeliz.jpg);
+        background-size: cover;
+    }
+
     .perdon {
         background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/perdon.jpg);
         background-size: cover;
