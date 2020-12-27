@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ianagonrok/public_html/
-    - /bin/cp src/. $DEPLOYPATH
+    - /bin/rm -Rf $DEPLOYPATH
+    - /bin/mkdir $DEPLOYPATH
+    - /bin/cp -R src/. $DEPLOYPATH
