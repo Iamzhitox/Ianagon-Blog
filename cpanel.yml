@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/'Proyecto Ianagon'
+    - export DEPLOYPATH=../'Proyecto Ianagon'
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
