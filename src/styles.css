@@ -367,8 +367,8 @@
         overflow: hidden;
         background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.205));
         background-size: cover;
-        width: 20rem;
-        height: 13rem;
+        width: 18rem;
+        height: 11rem;
         margin-left: .7rem;
     }
 
@@ -406,7 +406,7 @@
         font-size: 1.5rem;
         margin: 0;
         padding-bottom: .7rem;
-        padding-top: 7.4rem;
+        padding-top: 5.5rem;
         color: white;
         font-family: 'Gilroy', sans-serif;
     }
@@ -414,6 +414,8 @@
     @media (min-width: 1200px) {
         .articulo .titulo {
             font-size: 2.3rem;
+            padding-top: 9rem;
+
         }
     }
 
