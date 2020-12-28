@@ -405,8 +405,8 @@
         padding-left: .7rem;
         font-size: 1.5rem;
         margin: 0;
-        padding-bottom: .7rem;
-        padding-top: 5.5rem;
+        padding-bottom: .3rem;
+        padding-top: 6.5rem;
         color: white;
         font-family: 'Gilroy', sans-serif;
     }
@@ -415,6 +415,8 @@
         .articulo .titulo {
             font-size: 2.3rem;
             padding-top: 9rem;
+            padding-bottom: .7rem;
+
 
         }
     }
