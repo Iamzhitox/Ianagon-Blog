@@ -253,6 +253,9 @@
         margin: 0;
         padding-bottom: 0;
         align-items: flex-end;
+        position: relative;
+        bottom: -2px;
+        z-index: 1;
     }
 
     @media (min-width: 1200px) {
@@ -287,6 +290,8 @@
         margin-top: -3rem;
         margin-bottom: 0rem;
         color: black;
+        position: relative;
+        z-index: 2;
     }
 
     @media (min-width: 1200px) {
