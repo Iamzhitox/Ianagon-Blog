@@ -465,6 +465,13 @@
 
     }
 
+    .habitos7 {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Blog/habitos7.jpg);
+        background-size: cover;
+
+    }
+
+
     /* Quienes Somos */
 
     #quienes-somos {
