@@ -294,15 +294,15 @@ body {
     }
 
     .enlace-hover:hover {
-        background-color: rgba(0, 0, 0, 0.3);
-        border-radius: .5rem;
+        background-color: rgb(216, 216, 216);
+        border-radius: .3rem;
         margin-bottom: auto;
 
     }
 
     .navbar a {
         margin: 0;
-        padding: .3rem .3rem .2rem .3rem;
+        padding: .3rem .4rem .2rem .4rem;
         font-family: 'Nunito', sans-serif;
         display: inline-block;
         font-size: 1.1rem;
@@ -313,7 +313,6 @@ body {
 
     .navbar a:hover {
         color: rgb(255, 255, 255);
-        text-shadow: 0 0 .5rem rgba(255, 255, 255, 0.4);
     }
 
 }
@@ -378,7 +377,7 @@ body {
 }
 @media (min-width: 1024px) {
     .parrafo {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 300;
     }
     .parrafo b {
