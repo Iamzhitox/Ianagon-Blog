@@ -25,11 +25,9 @@
 
     @media (min-width: 1200px) {
         #cabecera {
-            height: 30rem;
+            height: 26rem;
             background-attachment: fixed;
-            border-bottom-left-radius: 5rem;
-            border-bottom-right-radius: 5rem;
-    
+  
         }
     }
 
@@ -150,7 +148,7 @@
             padding: .5rem .7rem .5rem .7rem;
             font-family: 'Nunito', sans-serif;
             display: inline-block;
-            font-size: 1.2rem;
+            font-size: 1.05rem;
             font-weight: 500;
             text-transform: uppercase;
         }
@@ -201,7 +199,8 @@
 
     @media (min-width: 1200px) {
         .brand img {
-            height: 11rem;
+            padding-top: 0;
+            height: 10rem;
         }
     }
 
@@ -239,7 +238,8 @@
 
     @media (min-width: 1200px) {
         .slogan {
-            font-size: 1.8rem;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
             padding-top: .5rem;
 
         }
@@ -296,11 +296,12 @@
 
     @media (min-width: 1200px) {
         #blog h2 {
-            margin-top: 1rem;
+            margin-top: 1.8rem;
             font-size: 3rem;
             width: 100%;
             text-align: center;
             margin-left: 0;
+            margin-bottom: 0;
 
         }
     }
@@ -319,10 +320,13 @@
 
     @media (min-width: 1200px) {
         .section-blog {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             text-align: center;
-            margin-right: 25%;
-            margin-left: 25%;
+            padding-top: .8rem;
+            padding-bottom: .7rem;    
+            margin-right: 35%;
+            margin-left: 35%;
+            margin-bottom: 0;
         }
 
         .section-blog:hover {
@@ -357,9 +361,10 @@
             white-space: normal;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
+            margin-left: 7rem;
+            margin-right: 7rem;
             margin-bottom: 3rem;
+            opacity: 0.98;
 
         }
     }
@@ -379,22 +384,19 @@
 
     @media (min-width: 1200px) {
         .articulo {
-            width: 98%;
+            width: 99%;
             margin: 1%;
-            height: 16rem;
+            height: 14rem;
             border-radius: .5rem;
             margin-top: 1rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0rem;
         }
 
-        .contenedorCarrusel:hover .articulo {
-            opacity: 0.6;
-        }
 
         .contenedorCarrusel:hover .articulo:hover {
-            transform: scale(1.043);
+            transform: scale(1.01);
             opacity: 1;
-            box-shadow: 0 1.5rem 2rem rgb(97, 97, 97);
+            box-shadow: 0 .5rem .8rem rgb(0, 0, 0, 0.6);
             transition: all .3s;
         }
         
@@ -418,8 +420,8 @@
 
     @media (min-width: 1200px) {
         .articulo .titulo {
-            font-size: 2.3rem;
-            padding-top: 9rem;
+            font-size: 2.1rem;
+            padding-top: 7.5rem;
             padding-bottom: .7rem;
 
 
@@ -438,7 +440,7 @@
 
     @media (min-width: 1200px) {
         .articulo .subtitulo {
-            font-size: 1rem;
+            font-size: .98rem;
         }
     }
 
