@@ -363,7 +363,7 @@
             grid-template-columns: 1fr 1fr 1fr;
             margin-left: 7rem;
             margin-right: 7rem;
-            margin-bottom: 3rem;
+            margin-bottom: 0rem;
             opacity: 0.98;
 
         }
@@ -421,10 +421,7 @@
     @media (min-width: 1200px) {
         .articulo .titulo {
             font-size: 2.1rem;
-            padding-top: 7.5rem;
-            padding-bottom: .7rem;
-
-
+            padding-top: 8rem;
         }
     }
 
@@ -478,51 +475,75 @@
 
     #quienes-somos {
         margin-top: 2rem;
-        margin-bottom: 1rem;
         padding-top: 1rem;
         padding-bottom: 2rem;
-        background: linear-gradient(to top, rgba(0, 108, 138, 0.8), rgba(0, 108, 138, 0.8)), url(background2.jpg);
+        background: linear-gradient(to top, rgba(0, 79, 100), rgba(0, 99, 126, 0.8), rgba(0, 79, 100)), url(background2.jpg);
         background-size: cover;
     }
 
     @media (min-width: 1200px) {
         #quienes-somos {
+            padding: 3rem 3rem 4.3rem 3rem;
             background-attachment: fixed;
         }
     }
 
+    .sobreNos {
+        display: block;
+    }
+    @media (min-width: 1200px) {
+        .sobreNos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    
+    }
 
-    #quienes-somos h2 {
+
+    .sobreNos h2 {
         font-size: 2rem;
         color: white;
-        text-align: center;
+        text-align: start;
+        margin-left: 1.5rem;
         font-family: 'Gilroy', sans-serif;
-
+        
     }
 
     @media (min-width: 1200px) {
-        #quienes-somos h2 {
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
+        .sobreNos h2 {
+            margin-left: 1.5rem;
+            font-size: 2.3rem;
+            margin-bottom: 1rem;
         }
+    }
+
+    .nos2 {
+    }
+    @media (min-width: 1200px) {
+        .nos2 {
+            border-left: 2px solid white;
+            padding-bottom: 1.3rem;
+        }
+
     }
 
 
     #quienes-somos p {
         margin-left: 1rem;
-        margin-right: 1rem;
-        text-align: center;
+        margin-right: .7rem;
+        text-align: start;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         color: rgba(255, 255, 255, 0.9);
-        font-size: 1.1rem;
+        font-size: 1rem;
 
     }
 
     @media (min-width: 1200px) {
         #quienes-somos p {
-            font-size: 1.5rem;
-            padding: 0 28% 0 28%;
+            margin-left: 1.5rem;
+            font-size: 1.2rem;
+            text-align: start;
         }
     }
 
@@ -533,15 +554,13 @@
 
     #cta {
         width: 100%;
+        background-color: #003442;
     }
     @media (min-width: 1200px) {
         #cta {
-            margin: 2rem auto 2rem auto;
+
         }
     }
-
-
-
 
     .follow-contact {
         display: grid;
@@ -555,6 +574,7 @@
     }
 
     .followMe {
+        background-color: white;
         display: block;
         width: 90%;
         border: 2px solid #DBDBDB;
@@ -565,8 +585,10 @@
         .followMe {
             display: block;
             margin: 0;
-            width: 16rem;
+            width: 13rem;
             margin-right: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
 
         }
     }
@@ -585,7 +607,7 @@
     }
     @media (min-width: 1200px) {
         .followMe img {
-            width: 8rem;
+            width: 7.5rem;
         }
     }
 
@@ -596,7 +618,7 @@
     }
     @media (min-width: 1200px) {
         .followMe h3 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
     }
 
@@ -615,9 +637,9 @@
     }
     @media (min-width: 1200px) {
         .cta-follow {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            width: 13rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            width: 11rem;
             border-radius: 1rem;
         }
         .cta-follow:active {
@@ -637,9 +659,9 @@
     }
     @media (min-width: 1200px) {
         .cta-follow h4 {
-            padding-bottom: .5rem;
-            padding-top: .5rem;
-            font-size: 1.2rem;
+            padding-bottom: .45rem;
+            padding-top: .45rem;
+            font-size: 1.05rem;
         }
     }
 
@@ -648,7 +670,7 @@
 
     .newsletter{
         display: block;
-        background-color: white; 
+        background-color: #003442;
         margin-left: 2rem;
   
     }
@@ -660,6 +682,7 @@
 
 
     .newsletter h2 {
+        color: white;
         font-size: 1rem;
         margin-top: 1rem;
         margin-bottom: .2rem;
@@ -677,7 +700,7 @@
     #cta .newsletter a {
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
-        color: rgb(145, 145, 145);
+        color: rgb(182, 182, 182);
         font-size: .7rem;
 
     }

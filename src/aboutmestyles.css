@@ -179,7 +179,7 @@ h1 {
         padding: .5rem .7rem .5rem .7rem;
         font-family: 'Nunito', sans-serif;
         display: inline-block;
-        font-size: 1.2rem;
+        font-size: 1.05rem;
         font-weight: 500;
         text-transform: uppercase;
     }
@@ -308,27 +308,22 @@ h1 {
 
 
     /* Follow in Instagram */
-
     #cta {
         width: 100%;
-        padding-bottom: 1rem;
-        padding-top: 2rem;
         background-color: #003442;
+        font-family: 'Lato';
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #cta {
-            margin: 2rem auto auto auto;
+
         }
     }
-
-
-
 
     .follow-contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .follow-contact {
             display: flex;
             justify-content: center;
@@ -336,20 +331,21 @@ h1 {
     }
 
     .followMe {
-        display: block;
         background-color: white;
+        display: block;
         width: 90%;
-        border: 2px solid #afafaf;
+        border: 2px solid #DBDBDB;
         border-radius: 1rem;
-        box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.4);
         margin: 4%;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .followMe {
             display: block;
             margin: 0;
-            width: 16rem;
+            width: 13rem;
             margin-right: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
 
         }
     }
@@ -366,21 +362,20 @@ h1 {
         border: 2px solid #dddddd;
 
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .followMe img {
-            width: 8rem;
+            width: 7.5rem;
         }
     }
 
     .followMe h3 {
-        font-family: 'Lato';
         text-align: center;
         font-size: 1rem;
         margin-bottom: .5rem;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .followMe h3 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
     }
 
@@ -397,11 +392,11 @@ h1 {
         margin-bottom: 2rem;
         text-decoration: none;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .cta-follow {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            width: 13rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            width: 11rem;
             border-radius: 1rem;
         }
         .cta-follow:active {
@@ -418,13 +413,12 @@ h1 {
         margin: 0;
         padding-bottom: .3rem;
         padding-top: .3rem;
-        font-family: 'lato';
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .cta-follow h4 {
-            padding-bottom: .5rem;
-            padding-top: .5rem;
-            font-size: 1.2rem;
+            padding-bottom: .45rem;
+            padding-top: .45rem;
+            font-size: 1.05rem;
         }
     }
 
@@ -433,10 +427,11 @@ h1 {
 
     .newsletter{
         display: block;
-        margin-left: .5rem;
+        background-color: #003442;
+        margin-left: 2rem;
   
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         /* .newsletter {
 
         } */
@@ -444,13 +439,12 @@ h1 {
 
 
     .newsletter h2 {
+        color: white;
         font-size: 1rem;
         margin-top: 1rem;
         margin-bottom: .2rem;
-        color: white;
-        font-family: 'Lato';
     }
-        @media (min-width: 1024px) {
+        @media (min-width: 1200px) {
         .newsletter h2 {
             font-size: 2rem;
             margin-bottom: .5rem;
@@ -458,16 +452,16 @@ h1 {
         }
     }
 
-/* Footer */
+
 
     #cta .newsletter a {
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
-        color: #a1a1a1;
+        color: rgb(182, 182, 182);
         font-size: .7rem;
 
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         #cta .newsletter a {
             font-size: 1.2rem;
         }
@@ -480,10 +474,12 @@ h1 {
         margin-left: 0rem;
         color: #1ABCE7;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         .newsletter p {
             margin-top: 3rem;
 
         }
 
     }
+
+
