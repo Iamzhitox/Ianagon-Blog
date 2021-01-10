@@ -261,7 +261,10 @@ h1 {
         padding: .6rem 2rem .5rem 2rem;
     }
     .noseleccionado:hover {
-        transform: scale(1.07);
+        transform: scale(1.065);
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+    
     }
     .noseleccionado:active {
         transform: scale(.99);
@@ -360,9 +363,9 @@ h1 {
 }
 @media (min-width: 1200px) {
     .articulo {
-        margin: auto 20% 3rem 20%;
+        margin: auto 17% 1.5rem 17%;
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 34% 66%;
         border: 1px solid rgb(228, 228, 228);
         box-shadow: 0 0 0 rgb(255, 255, 255);
         
@@ -432,7 +435,7 @@ h1 {
 }
 @media (min-width: 1200px) {
     .descripcion h3 {
-        font-size: 1.2rem;
+        font-size: 1.05rem;
         font-weight: 400;
     }
 }
