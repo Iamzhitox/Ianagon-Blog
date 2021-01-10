@@ -363,7 +363,7 @@
             grid-template-columns: 1fr 1fr 1fr;
             margin-left: 7rem;
             margin-right: 7rem;
-            margin-bottom: 0rem;
+            margin-bottom: 1rem;
             opacity: 0.98;
 
         }
@@ -394,7 +394,7 @@
 
 
         .contenedorCarrusel:hover .articulo:hover {
-            transform: scale(1.01);
+            transform: translateY(-.3rem);
             opacity: 1;
             box-shadow: 0 .5rem .8rem rgb(0, 0, 0, 0.6);
             transition: all .3s;
