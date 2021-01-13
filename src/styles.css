@@ -597,6 +597,13 @@
             margin-top: 1rem;
             margin-bottom: 1.5rem;
         }
+        .contenedorCarrusel:hover .note:hover {
+            transform: translateY(-.3rem);
+            opacity: 1;
+            box-shadow: 0 .5rem .8rem rgb(0, 0, 0, 0.3);
+            transition: all .4s;
+        }
+
     }
 
     .note .titulo {
