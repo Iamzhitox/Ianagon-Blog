@@ -213,6 +213,7 @@
         padding-bottom: 0;
         margin: 0;
         margin-top: -1rem;
+        margin-bottom: 1rem;
         color: white;
         text-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
     }
@@ -221,18 +222,20 @@
         .nombreBrand {
             font-size: 5.5rem;
             margin-top: -2rem;
+            margin-bottom: 0;
+
         }
     }
 
     .slogan {
         margin-top: 0;
-        font-family: 'Lato';
-        font-size: 1.4rem;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.62rem;
         text-align: center;
         font-weight: 300;
         text-shadow: 0 0 .8rem black;
         color: rgba(255, 255, 255, 0.767);
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
 
     }
 
@@ -241,6 +244,8 @@
             font-family: 'Dancing Script', cursive;
             font-size: 2rem;
             padding-top: .5rem;
+            padding-bottom: 2rem;
+
 
         }
     }
@@ -557,7 +562,7 @@
 
     #cta {
         width: 100%;
-        background-color: #003442;
+        background: linear-gradient(to top, rgb(0, 80, 102), rgb(0, 44, 56));
         padding-top: 2rem;
 
     }
@@ -676,7 +681,6 @@
 
     .newsletter{
         display: block;
-        background-color: #003442;
         margin-left: 2rem;
   
     }

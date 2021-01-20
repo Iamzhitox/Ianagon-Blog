@@ -467,8 +467,10 @@ body {
 
     #cta {
         width: 100%;
-        background-color: #003442;
+        background: linear-gradient(to top, rgb(0, 80, 102), rgb(0, 44, 56));
         font-family: 'Lato';
+        padding-top: 2rem;
+
     }
     @media (min-width: 1200px) {
         #cta {
@@ -584,7 +586,6 @@ body {
 
     .newsletter{
         display: block;
-        background-color: #003442;
         margin-left: 2rem;
   
     }
