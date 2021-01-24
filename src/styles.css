@@ -583,12 +583,12 @@
     } */
 
     .note {
-        border: solid 1px  rgb(223, 223, 117);
+        border: solid 1px  rgb(220, 220, 130);
         border-radius: 1rem;
         cursor: pointer;
         display: inline-block;
         overflow: hidden;
-        background-color: rgb(255, 255, 153);
+        background-color: rgb(255, 255, 182);
         background-size: cover;
         width: 16rem;
         height: 10rem;
