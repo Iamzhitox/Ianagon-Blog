@@ -591,7 +591,7 @@
         background-color: rgb(255, 255, 153);
         background-size: cover;
         width: 16rem;
-        height: 16.5rem;
+        height: 10rem;
         margin-left: .7rem;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
@@ -601,7 +601,7 @@
         .note {
             width: 22rem;
             margin: 1%;
-            height: 23.5rem;
+            height: 13.5rem;
             border-radius: .5rem;
             margin-top: 1rem;
             margin-bottom: 1.5rem;
@@ -618,7 +618,7 @@
     .note .titulo {
         display: block;
         padding-left: .7rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin: 0;
         white-space: normal;
         padding-bottom: .3rem;
@@ -651,7 +651,7 @@
     .note .subtitulo {
         display: block;
         padding-right: .8rem;
-        font-size: .8rem;
+        font-size: .9rem;
         padding-left: .7rem;
         margin: 0;
         white-space: normal;
@@ -665,7 +665,7 @@
     @media (min-width: 1200px) {
         .note .subtitulo {
             padding-left: 1.1rem;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
         }
     }
 
