@@ -356,13 +356,13 @@ body {
 .subtitulo {
     font-family: 'Gilroy', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 2rem;
     padding-top: 0;
 }
 @media (min-width: 1024px) {
     .subtitulo {
-        font-size: 2.3rem;
+        font-size: 25px;
     }
 }
 
@@ -370,14 +370,14 @@ body {
 .parrafo {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     padding: 0;
 }
 @media (min-width: 1024px) {
     .parrafo {
-        font-size: 1.4rem;
+        font-size: 18px;
         font-weight: 300;
     }
     .parrafo b {
@@ -404,7 +404,7 @@ body {
 #contenido li {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.04rem;
     list-style-type: none;
     border-left: .4rem solid black;
     padding-left: .8rem;

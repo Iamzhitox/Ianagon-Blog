@@ -291,7 +291,7 @@
 
 
     #blog h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: -3rem;
         margin-bottom: 0rem;
         color: black;
@@ -302,7 +302,7 @@
     @media (min-width: 1200px) {
         #blog h2 {
             margin-top: 1.8rem;
-            font-size: 3rem;
+            font-size: 40px;
             width: 100%;
             text-align: center;
             margin-left: 0;
@@ -313,6 +313,7 @@
 
     .section-blog {
         margin-left: 1.3rem;
+        font-size: .9rem;
         color: rgb(187, 187, 187);
         border-top: 1px solid rgb(199, 199, 199);
         border-bottom: 1px solid rgb(199, 199, 199);
@@ -324,7 +325,7 @@
 
     @media (min-width: 1200px) {
         .section-blog {
-            font-size: 1.2rem;
+            font-size: 16px;
             text-align: center;
             padding-top: .8rem;
             padding-bottom: .7rem;    
@@ -566,7 +567,7 @@
     @media (min-width: 1200px) {
         #notas h2 {
             margin-top: 1.8rem;
-            font-size: 3rem;
+            font-size: 40px;
             width: 100%;
             text-align: center;
             margin-left: 0;
@@ -629,7 +630,7 @@
 
     @media (min-width: 1200px) {
         .note .titulo {
-            font-size: 1.7rem;
+            font-size: 27px;
             padding-top: 1rem;
             padding-left: 1rem;
             margin-right: 1.2rem;
@@ -657,7 +658,7 @@
         white-space: normal;
         padding-top: .7rem;
         font-family: 'Nunito', sans-serif;
-        color: #878787;
+        color: #767676;
         font-weight: 300;
         margin-bottom: .8rem;
     }
@@ -799,7 +800,7 @@
         .cta-follow h4 {
             padding-bottom: .45rem;
             padding-top: .45rem;
-            font-size: 1.05rem;
+            font-size: 20px;
         }
     }
 
